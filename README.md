@@ -160,6 +160,8 @@ quote = api.overseas_quote("US", "SPY", instrument="etf")
 
 ### 怎样理解可查询范围
 
+`metadata.source` 为 `alphakit`，`source_kind` 为 `service`，表示提供响应的 AlphaKit 服务。版本标识用于比较数据更新状态，请将它作为不透明字符串使用。
+
 | 覆盖信息 | 怎样使用 |
 |---|---|
 | `complete_through` | 历史日线的完整更新截止日期，日线查询按这一范围返回 |
