@@ -1,0 +1,26 @@
+name: SDK 使用或文档问题
+description: 反馈可公开讨论的调用、结果格式或说明问题
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交完整 Token、认证头、账号资料或含凭证的 URL。账号与授权问题请联系微信 dfzzq719，注明 SDK。
+  - type: input
+    id: versions
+    attributes:
+      label: SDK、Python 与操作系统版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 接口与复现步骤
+      description: 请提供最小代码与日期参数，删除 Token 和私有服务地址。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果
+      description: 可附脱敏错误码、发生时间和时区。
+    validations:
+      required: true
