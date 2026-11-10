@@ -26,7 +26,7 @@ python examples/sdk/valuation_alignment.py --demo --csv
 
 通过微信 **dfzzq719** 联系，申请时请注明：SDK。
 
-获得 Token、完整的 HTTPS 数据服务基址及对应权限后，在本地环境中设置 `ALPHAKIT_TOKEN` 和 `ALPHAKIT_BASE_URL`。使用管理方提供的基址，不要把官网地址或完整查询端点直接当作基址。
+获得 Token 和对应权限后，在本地环境中设置 `ALPHAKIT_TOKEN`，并将 `ALPHAKIT_BASE_URL` 设为 `https://alphakit.cn`。示例会根据调用方法拼接接口路径。
 
 ```console
 python examples/sdk/daily_history.py --ts-code 000001.SZ --start-date 20250102 --end-date 20250108
