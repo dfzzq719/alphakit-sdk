@@ -1,0 +1,10 @@
+{
+  "version": "0.2.25",
+  "package": "alphakit-sdk",
+  "pypi": "https://pypi.org/project/alphakit-sdk/0.2.25/",
+  "files": {
+    "alphakit_sdk-0.2.25-py3-none-any.whl": "cb2c44d99b180d100ca024c81db1be65bbfe86973320500f1ca933123ca0ba07",
+    "alphakit_sdk-0.2.25.tar.gz": "3df8d96a525a5e8ed31d9449083283b18b07aaa8932f8f7035f6a66e11141500"
+  },
+  "scope": "Documentation, examples and offline tests; no server implementation"
+}
