@@ -1,2 +1,2 @@
-alphakit-sdk==0.2.26
+alphakit-sdk==0.2.27
 pandas>=1.3.0
