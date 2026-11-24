@@ -1,5 +1,3 @@
-![AlphaKit SDK：把市场数据接进你的程序](https://raw.githubusercontent.com/dfzzq719/docs/6713a76dfe329b26fdf845a8e0bdd1f7f26ddac6/images/alphakit-sdk-wide-banner-20261025.webp)
-
 # AlphaKit SDK：Python A 股数据
 
 **把行情、估值和行业数据接入 Python，让研究从一张可用的数据表开始。**
@@ -175,9 +173,7 @@ MCP 需在 AI 客户端中单独配置，使用 AlphaKit Token 认证；SDK 与 
 
 ## 配套网页研究工具
 
-![AlphaKit SDK 数据研究与配套 AlphaView 网页工具的真实 K 线界面](https://raw.githubusercontent.com/dfzzq719/docs/08aa78d3e21deddea3e100451f6a14c732448b9d/images/alphakit-sdk-saas-promo-20261022.webp)
-
-图中为配套网页工具 AlphaView 的产品实景。Python SDK 提供数据查询接口，网页工具提供行情图表、技术指标与历史分位查看，具体范围按账户权限开放。
+使用 Python SDK 可在脚本中查询 A 股数据。配套网页工具 AlphaView 可查看行情图表、技术指标与历史分位，具体范围按账户权限开放。用上证指数了解图表操作，可阅读[带实景截图的 AlphaView 入门指南](https://alphakit.cn/help/alphaview/quick-start.html)。
 
 ## 常见问题
 
